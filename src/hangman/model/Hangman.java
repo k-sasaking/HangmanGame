@@ -73,6 +73,7 @@ public class Hangman {
 		return true;
 	}
 	public String next() {
+		index++;
 		return this.hangman[index];
 	}
 	
